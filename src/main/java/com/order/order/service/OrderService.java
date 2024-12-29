@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 @Service
 @Slf4j
@@ -95,7 +96,7 @@ public class OrderService {
      * Handles high concurrency by ensuring thread-safety and transactional consistency.
      * To be integrated with external systems A and B in future expansions.
      */
-    public synchronized void processHighVolumeOrders(List<Order> orders) {
+    public synchronized void processHighVolumeOrders(Set<Order> orders) {
         log.info("Processing high volume of orders: {} orders", orders.size());
         orders.forEach(this::createOrder);
     }
