@@ -1,4 +1,4 @@
-package com.order.order;
+package com.order;
 
 
 import org.springframework.boot.SpringApplication;

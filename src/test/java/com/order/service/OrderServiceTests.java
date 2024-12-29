@@ -1,8 +1,8 @@
-package com.order.order.service;
+package com.order.service;
 
-import com.order.order.model.Order;
-import com.order.order.model.Product;
-import com.order.order.repository.OrderRepository;
+import com.order.model.Order;
+import com.order.model.Product;
+import com.order.repository.OrderRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

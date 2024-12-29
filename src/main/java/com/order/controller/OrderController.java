@@ -1,7 +1,7 @@
-package com.order.order.controller;
+package com.order.controller;
 
-import com.order.order.model.Order;
-import com.order.order.service.OrderService;
+import com.order.model.Order;
+import com.order.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
